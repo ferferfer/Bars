@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E53C3545-01EE-47E4-972F-4D6409EC5A0F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bars</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>162CD80A-3DB6-481F-8C93-E33EA108E86B</key>
+		<string>https://github.com/ferferfer/Bars.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bars.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>162CD80A-3DB6-481F-8C93-E33EA108E86B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ferferfer/Bars.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>162CD80A-3DB6-481F-8C93-E33EA108E86B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>162CD80A-3DB6-481F-8C93-E33EA108E86B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bars</string>
+		</dict>
+	</array>
+</dict>
+</plist>

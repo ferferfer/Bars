@@ -1,0 +1,10 @@
+PODS:
+  - ASStarRatingView (0.1.0)
+
+DEPENDENCIES:
+  - ASStarRatingView (~> 0.1)
+
+SPEC CHECKSUMS:
+  ASStarRatingView: e1fba78af5d09d8e7f777884da593a7c712a0bbc
+
+COCOAPODS: 0.33.1
