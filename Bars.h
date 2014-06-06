@@ -1,14 +1,16 @@
 //
-//  ViewController.h
+//  Bars.h
 //  Bars
 //
 //  Created by Fernando Garcia Corrochano on 06/06/14.
 //  Copyright (c) 2014 ironHack. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
+@interface Bars : NSObject
 
+-(id) initWithFile:(NSString *)fileName;
+-(NSArray *)allBars;
 
 @end

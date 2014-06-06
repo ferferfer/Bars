@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Bars.h"
+#import "Bar.h"
 
 @interface BarsTests : XCTestCase
 
@@ -14,21 +16,13 @@
 
 @implementation BarsTests
 
-- (void)setUp
-{
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+-(void)testCanInitWithFile{
+	
+	Bars *bars=[[Bars alloc]initWithFile:@"Bars_List"];
+	
+	XCTAssertNotNil(bars, @"Bars shoun´t be nil");
+	XCTAssertTrue([[bars allBars]count]>0, @"Bars cannot be empty");
+	XCTAssertTrue([[bars allBars][0] isKindOfClass:[Bar class]] , @"Is not a bar!!!!");
+	
 }
-
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
-}
-
 @end

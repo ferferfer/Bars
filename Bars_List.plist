@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>bar1</string>
+		<key>address</key>
+		<string>calle 1</string>
+		<key>urlPhoto</key>
+		<string>http://camarasdeseguridadevr.es/bar01.jpg</string>
+		<key>longitude</key>
+		<string>39.495</string>
+		<key>latitude</key>
+		<string>-3.867187</string>
+		<key>description</key>
+		<string>Bar de copas, ofertas hora feliz</string>
+		<key>score</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>bar2</string>
+		<key>address</key>
+		<string>calle 1</string>
+		<key>urlPhoto</key>
+		<string>http://camarasdeseguridadevr.es/bar01.jpg</string>
+		<key>longitude</key>
+		<string>39.495</string>
+		<key>latitude</key>
+		<string>-3.867187</string>
+		<key>description</key>
+		<string>Bar de copas, ofertas hora feliz</string>
+		<key>score</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>bar3</string>
+		<key>address</key>
+		<string>calle 1</string>
+		<key>urlPhoto</key>
+		<string>http://camarasdeseguridadevr.es/bar01.jpg</string>
+		<key>longitude</key>
+		<string>39.495</string>
+		<key>latitude</key>
+		<string>-3.867187</string>
+		<key>description</key>
+		<string>Bar de copas, ofertas hora feliz</string>
+		<key>score</key>
+		<integer>5</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>bar4</string>
+		<key>address</key>
+		<string>calle 1</string>
+		<key>urlPhoto</key>
+		<string>http://camarasdeseguridadevr.es/bar01.jpg</string>
+		<key>longitude</key>
+		<string>39.495</string>
+		<key>latitude</key>
+		<string>-3.867187</string>
+		<key>description</key>
+		<string>Bar de copas, ofertas hora feliz</string>
+		<key>score</key>
+		<integer>5</integer>
+	</dict>
+</array>
+</plist>
