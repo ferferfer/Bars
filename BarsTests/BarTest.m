@@ -17,13 +17,13 @@
 
 -(void)testCanCreateBar {
 	
-	Bar *bar = [[Bar alloc] initWithName:@"name" andAddress:@"address" andLatitude:@"latitude" andLongitude:@"longitude"];
+	Bar *bar = [[Bar alloc] initWithName:@"name" andAddress:@"address" andLatitude:69 andLongitude:68];
 
 	XCTAssertNotNil(bar, @"Bar should't be nil");
 	XCTAssertEqualObjects(bar.name, @"name", @"Bar.name is not equal to name");
 	XCTAssertEqualObjects(bar.address, @"address", @"Bar.name is not equal to address");
-	XCTAssertEqualObjects(bar.longitude, @"longitude", @"Bar.name is not equal to longitude");
-	XCTAssertEqualObjects(bar.latitude, @"latitude", @"Bar.name is not equal to latitude");
+	XCTAssertEqual(bar.longitude, 68, @"Bar.name is not equal to 68");
+	XCTAssertEqual(bar.latitude, 69, @"Bar.name is not equal to 69");
 }
 
 -(void)testCanCreateBarAndAddDescription {

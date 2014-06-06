@@ -11,22 +11,22 @@
 @implementation Bar
 
 - (id)init{
-		return [self initWithName:nil andAddress:nil andLatitude:nil andLongitude:nil];
+		return [self initWithName:nil andAddress:nil andLatitude:0 andLongitude:0];
 }
 
 -(id)initWithName:(NSString *)name{
-	return [self initWithName:name andAddress:nil andLatitude:nil andLongitude:nil];
+	return [self initWithName:name andAddress:nil andLatitude:0 andLongitude:0];
 }
 
 -(id)initWithName:(NSString *)name
 			 andAddress:(NSString *)address{
-	return [self initWithName:name andAddress:address andLatitude:nil andLongitude:nil];
+	return [self initWithName:name andAddress:address andLatitude:0 andLongitude:0];
 }
 
 -(id)initWithName:(NSString *)name
 			 andAddress:(NSString *)address
-			andLatitude:(NSString *)latitude
-		 andLongitude:(NSString *)longitude{
+			andLatitude:(CGFloat)latitude
+		 andLongitude:(CGFloat)longitude{
 	
 	self = [super init];
 	if (self) {

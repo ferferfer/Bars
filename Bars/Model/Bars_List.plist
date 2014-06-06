@@ -8,11 +8,11 @@
 		<key>address</key>
 		<string>calle 1</string>
 		<key>urlPhoto</key>
-		<string>http://camarasdeseguridadevr.es/bar01.jpg</string>
+		<string>http://2.bp.blogspot.com/-AeQZfWlkv0s/TXuSGmpqDbI/AAAAAAAAABg/rNv5WtO6oIc/s1600/bar-la-playa-2.jpg</string>
 		<key>longitude</key>
-		<string>39.495</string>
+		<real>39495</real>
 		<key>latitude</key>
-		<string>-3.867187</string>
+		<real>-3867187</real>
 		<key>description</key>
 		<string>Bar de copas, ofertas hora feliz</string>
 		<key>score</key>
@@ -24,11 +24,11 @@
 		<key>address</key>
 		<string>calle 1</string>
 		<key>urlPhoto</key>
-		<string>http://camarasdeseguridadevr.es/bar01.jpg</string>
+		<string>http://www.grandhotelcentral.com/content/imgsxml/es/fondos/d-sky-bar-hd.jpg</string>
 		<key>longitude</key>
-		<string>39.495</string>
+		<real>39495</real>
 		<key>latitude</key>
-		<string>-3.867187</string>
+		<real>-3867187</real>
 		<key>description</key>
 		<string>Bar de copas, ofertas hora feliz</string>
 		<key>score</key>
@@ -40,11 +40,11 @@
 		<key>address</key>
 		<string>calle 1</string>
 		<key>urlPhoto</key>
-		<string>http://camarasdeseguridadevr.es/bar01.jpg</string>
+		<string>http://www.manchesterbars.com/photos/browns-bar400.jpg</string>
 		<key>longitude</key>
-		<string>39.495</string>
+		<real>39495</real>
 		<key>latitude</key>
-		<string>-3.867187</string>
+		<real>-3867187</real>
 		<key>description</key>
 		<string>Bar de copas, ofertas hora feliz</string>
 		<key>score</key>
@@ -56,11 +56,11 @@
 		<key>address</key>
 		<string>calle 1</string>
 		<key>urlPhoto</key>
-		<string>http://camarasdeseguridadevr.es/bar01.jpg</string>
+		<string>http://www.hotelchicamocha.com/web/uploads/images/bares/Bar%20Candelazo%202.jpg</string>
 		<key>longitude</key>
-		<string>39.495</string>
+		<real>39495</real>
 		<key>latitude</key>
-		<string>-3.867187</string>
+		<real>-3867187</real>
 		<key>description</key>
 		<string>Bar de copas, ofertas hora feliz</string>
 		<key>score</key>

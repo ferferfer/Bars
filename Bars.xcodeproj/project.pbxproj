@@ -25,6 +25,9 @@
 		3F3E4A941941B09D00C3FE3E /* Bars_List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E4A931941B09D00C3FE3E /* Bars_List.plist */; };
 		3F3E4A961941B2C800C3FE3E /* BarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E4A951941B2C800C3FE3E /* BarTest.m */; };
 		3F3E4A9D1941CB8500C3FE3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E4A9C1941CB8500C3FE3E /* Main.storyboard */; };
+		3F3E4A9F1941CDEC00C3FE3E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4A9E1941CDEC00C3FE3E /* MapKit.framework */; };
+		3F3E4AA41941D1D300C3FE3E /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3E4AA31941D1D300C3FE3E /* DetailsViewController.m */; };
+		3F3E4AA61941DDD100C3FE3E /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F3E4AA51941DDD100C3FE3E /* cancel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,10 @@
 		3F3E4A931941B09D00C3FE3E /* Bars_List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Bars_List.plist; sourceTree = "<group>"; };
 		3F3E4A951941B2C800C3FE3E /* BarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarTest.m; sourceTree = "<group>"; };
 		3F3E4A9C1941CB8500C3FE3E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3F3E4A9E1941CDEC00C3FE3E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F3E4AA21941D1D300C3FE3E /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		3F3E4AA31941D1D300C3FE3E /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		3F3E4AA51941DDD100C3FE3E /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3E4A9F1941CDEC00C3FE3E /* MapKit.framework in Frameworks */,
 				3F3E4A5B1941A8F000C3FE3E /* CoreGraphics.framework in Frameworks */,
 				3F3E4A5D1941A8F000C3FE3E /* UIKit.framework in Frameworks */,
 				3F3E4A591941A8F000C3FE3E /* Foundation.framework in Frameworks */,
@@ -111,6 +119,7 @@
 		3F3E4A571941A8F000C3FE3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F3E4A9E1941CDEC00C3FE3E /* MapKit.framework */,
 				3F3E4A581941A8F000C3FE3E /* Foundation.framework */,
 				3F3E4A5A1941A8F000C3FE3E /* CoreGraphics.framework */,
 				3F3E4A5C1941A8F000C3FE3E /* UIKit.framework */,
@@ -136,6 +145,7 @@
 		3F3E4A5F1941A8F000C3FE3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F3E4AA51941DDD100C3FE3E /* cancel.png */,
 				3F3E4A601941A8F000C3FE3E /* Bars-Info.plist */,
 				3F3E4A611941A8F000C3FE3E /* InfoPlist.strings */,
 				3F3E4A641941A8F000C3FE3E /* main.m */,
@@ -188,6 +198,8 @@
 			children = (
 				3F3E4A6D1941A8F000C3FE3E /* ViewController.h */,
 				3F3E4A6E1941A8F000C3FE3E /* ViewController.m */,
+				3F3E4AA21941D1D300C3FE3E /* DetailsViewController.h */,
+				3F3E4AA31941D1D300C3FE3E /* DetailsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,6 +283,7 @@
 				3F3E4A711941A8F000C3FE3E /* Images.xcassets in Resources */,
 				3F3E4A9D1941CB8500C3FE3E /* Main.storyboard in Resources */,
 				3F3E4A631941A8F000C3FE3E /* InfoPlist.strings in Resources */,
+				3F3E4AA61941DDD100C3FE3E /* cancel.png in Resources */,
 				3F3E4A941941B09D00C3FE3E /* Bars_List.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +306,7 @@
 				3F3E4A921941A92A00C3FE3E /* Bars.m in Sources */,
 				3F3E4A6F1941A8F000C3FE3E /* ViewController.m in Sources */,
 				3F3E4A8F1941A90D00C3FE3E /* Bar.m in Sources */,
+				3F3E4AA41941D1D300C3FE3E /* DetailsViewController.m in Sources */,
 				3F3E4A691941A8F000C3FE3E /* AppDelegate.m in Sources */,
 				3F3E4A651941A8F000C3FE3E /* main.m in Sources */,
 			);

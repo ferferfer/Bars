@@ -34,8 +34,8 @@
 		for (NSDictionary *dic in array) {
 			Bar *bar=[[Bar alloc]initWithName:dic[@"name"]
 														 andAddress:dic[@"address"]
-														andLatitude:dic[@"latitude"]
-													 andLongitude:dic[@"longitude"]];
+														andLatitude:[dic[@"latitude"] floatValue]
+													 andLongitude:[dic[@"longitude"]floatValue]];
 			bar.description=dic[@"description"];
 			bar.score=[dic[@"score"]integerValue];
 			bar.urlPhoto=dic[@"urlPhoto"];

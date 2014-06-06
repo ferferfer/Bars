@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Bars.h"
 #import "Bar.h"
+#import "DetailsViewController.h"
 
 @interface ViewController ()
 
@@ -28,9 +29,16 @@
 
 @implementation ViewController
 
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+	if ([[segue identifier] isEqualToString:@"detailsSegue"]) {
+		DetailsViewController	*segundoView = [segue destinationViewController];
+		segundoView.bar = [self.theBars allBars][self.actualBar];
+	}
+}
+
 - (void)paintBar:(NSUInteger) actualBar{
-  Bar *bar1 = [self.theBars allBars][actualBar];
 	
+  Bar *bar1 = [self.theBars allBars][actualBar];
 	self.barName.text = bar1.name;
 	self.barAddress.text = bar1.address;
 	NSURL *url = [NSURL URLWithString:bar1.urlPhoto];
@@ -44,8 +52,6 @@
 {
 	[super viewDidLoad];
 	self.actualBar=0;
-	
-	
 	self.theBars = [[Bars alloc] initWithFile:@"Bars_List"];
 	[self paintBar:self.actualBar];
 }
@@ -57,7 +63,7 @@
 }
 
 - (IBAction)rightButton:(id)sender {
-	if (self.actualBar==[[self.theBars allBars]count]) {
+	if (self.actualBar==[[self.theBars allBars]count]-1) {
     self.actualBar=0;
 	}else{
 		self.actualBar++;
@@ -67,7 +73,7 @@
 
 - (IBAction)leftButton:(id)sender {
 	if (self.actualBar==0) {
-    self.actualBar=[[self.theBars allBars]count];
+    self.actualBar=[[self.theBars allBars]count]-1;
 	}else{
 		self.actualBar--;
 	}

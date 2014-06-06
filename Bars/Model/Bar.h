@@ -14,8 +14,8 @@
 @property (nonatomic,strong) NSString *address;
 @property (nonatomic) NSUInteger score;
 @property (nonatomic,strong) NSString *description;
-@property (nonatomic,strong) NSString *latitude;
-@property (nonatomic,strong) NSString *longitude;
+@property (nonatomic) CGFloat latitude;
+@property (nonatomic) CGFloat longitude;
 @property (nonatomic,strong) NSString
 *urlPhoto;
 
@@ -24,7 +24,7 @@
 			 andAddress:(NSString *)address;
 -(id)initWithName:(NSString *)name
 			 andAddress:(NSString *)address
-			andLatitude:(NSString *)latitude
-		 andLongitude:(NSString *)longitude;
+			andLatitude:(CGFloat)latitude
+		 andLongitude:(CGFloat)longitude;
 
 @end
