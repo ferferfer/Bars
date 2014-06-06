@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		22DB544FBD5A454996171764 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E410FEC8E914F5088BEB5B0 /* libPods.a */; };
-		3F35449D194206EE002B4CAD /* flecha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F35449B194206EE002B4CAD /* flecha.jpg */; };
-		3F35449E194206EE002B4CAD /* izda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F35449C194206EE002B4CAD /* izda.jpg */; };
+		3F3544A1194211E3002B4CAD /* NSObject+Chiquito.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3544A0194211E3002B4CAD /* NSObject+Chiquito.m */; };
+		3F3544A419421495002B4CAD /* NSArray+CircularList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3544A319421495002B4CAD /* NSArray+CircularList.m */; };
+		3F3544A6194216D6002B4CAD /* CircularListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3544A5194216D6002B4CAD /* CircularListTest.m */; };
 		3F3E4A591941A8F000C3FE3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4A581941A8F000C3FE3E /* Foundation.framework */; };
 		3F3E4A5B1941A8F000C3FE3E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4A5A1941A8F000C3FE3E /* CoreGraphics.framework */; };
 		3F3E4A5D1941A8F000C3FE3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4A5C1941A8F000C3FE3E /* UIKit.framework */; };
@@ -45,8 +46,11 @@
 
 /* Begin PBXFileReference section */
 		1E410FEC8E914F5088BEB5B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F35449B194206EE002B4CAD /* flecha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flecha.jpg; sourceTree = "<group>"; };
-		3F35449C194206EE002B4CAD /* izda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = izda.jpg; sourceTree = "<group>"; };
+		3F35449F194211E3002B4CAD /* NSObject+Chiquito.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Chiquito.h"; sourceTree = "<group>"; };
+		3F3544A0194211E3002B4CAD /* NSObject+Chiquito.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Chiquito.m"; sourceTree = "<group>"; };
+		3F3544A219421495002B4CAD /* NSArray+CircularList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CircularList.h"; sourceTree = "<group>"; };
+		3F3544A319421495002B4CAD /* NSArray+CircularList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CircularList.m"; sourceTree = "<group>"; };
+		3F3544A5194216D6002B4CAD /* CircularListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularListTest.m; sourceTree = "<group>"; };
 		3F3E4A551941A8F000C3FE3E /* Bars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3E4A581941A8F000C3FE3E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F3E4A5A1941A8F000C3FE3E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,6 +152,10 @@
 				3F3E4A681941A8F000C3FE3E /* AppDelegate.m */,
 				3F3E4A701941A8F000C3FE3E /* Images.xcassets */,
 				3F3E4A5F1941A8F000C3FE3E /* Supporting Files */,
+				3F35449F194211E3002B4CAD /* NSObject+Chiquito.h */,
+				3F3544A0194211E3002B4CAD /* NSObject+Chiquito.m */,
+				3F3544A219421495002B4CAD /* NSArray+CircularList.h */,
+				3F3544A319421495002B4CAD /* NSArray+CircularList.m */,
 			);
 			path = Bars;
 			sourceTree = "<group>";
@@ -155,8 +163,6 @@
 		3F3E4A5F1941A8F000C3FE3E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3F35449B194206EE002B4CAD /* flecha.jpg */,
-				3F35449C194206EE002B4CAD /* izda.jpg */,
 				3F3E4AA51941DDD100C3FE3E /* cancel.png */,
 				3F3E4A601941A8F000C3FE3E /* Bars-Info.plist */,
 				3F3E4A611941A8F000C3FE3E /* InfoPlist.strings */,
@@ -172,6 +178,7 @@
 				3F3E4A831941A8F000C3FE3E /* BarsTests.m */,
 				3F3E4A951941B2C800C3FE3E /* BarTest.m */,
 				3F3E4A7E1941A8F000C3FE3E /* Supporting Files */,
+				3F3544A5194216D6002B4CAD /* CircularListTest.m */,
 			);
 			path = BarsTests;
 			sourceTree = "<group>";
@@ -298,9 +305,7 @@
 				3F3E4A9D1941CB8500C3FE3E /* Main.storyboard in Resources */,
 				3F3E4A631941A8F000C3FE3E /* InfoPlist.strings in Resources */,
 				3F3E4AA61941DDD100C3FE3E /* cancel.png in Resources */,
-				3F35449D194206EE002B4CAD /* flecha.jpg in Resources */,
 				3F3E4A941941B09D00C3FE3E /* Bars_List.plist in Resources */,
-				3F35449E194206EE002B4CAD /* izda.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +360,9 @@
 				3F3E4A921941A92A00C3FE3E /* Bars.m in Sources */,
 				3F3E4A6F1941A8F000C3FE3E /* ViewController.m in Sources */,
 				3F3E4A8F1941A90D00C3FE3E /* Bar.m in Sources */,
+				3F3544A1194211E3002B4CAD /* NSObject+Chiquito.m in Sources */,
 				3F3E4AA41941D1D300C3FE3E /* DetailsViewController.m in Sources */,
+				3F3544A419421495002B4CAD /* NSArray+CircularList.m in Sources */,
 				3F3E4A691941A8F000C3FE3E /* AppDelegate.m in Sources */,
 				3F3E4A651941A8F000C3FE3E /* main.m in Sources */,
 			);
@@ -367,6 +374,7 @@
 			files = (
 				3F3E4A841941A8F000C3FE3E /* BarsTests.m in Sources */,
 				3F3E4A961941B2C800C3FE3E /* BarTest.m in Sources */,
+				3F3544A6194216D6002B4CAD /* CircularListTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

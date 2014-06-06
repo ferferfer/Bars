@@ -52,6 +52,8 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
+	[self porLaGloriaDeMiMadre];
+	[self.view fistroPecador];
 	self.actualBar=0;
 	self.theBars = [[Bars alloc] initWithFile:@"Bars_List"];
 	self.starRating.maxRating=5;
