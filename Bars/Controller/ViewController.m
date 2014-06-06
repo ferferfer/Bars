@@ -10,18 +10,19 @@
 #import "Bars.h"
 #import "Bar.h"
 #import "DetailsViewController.h"
+#import <ASStarRatingView.h>
 
 @interface ViewController ()
 
 @property (nonatomic)NSUInteger actualBar;
 @property	(nonatomic,strong) Bars *theBars;
-@property (weak, nonatomic) IBOutlet UILabel *barScore;
 @property (weak, nonatomic) IBOutlet UILabel *barAddress;
 @property (weak, nonatomic) IBOutlet UILabel *barName;
 @property (weak, nonatomic) IBOutlet UIImageView *barImage;
 - (IBAction)rightButton:(id)sender;
 - (IBAction)leftButton:(id)sender;
 - (IBAction)detailsButton:(id)sender;
+@property (weak, nonatomic) IBOutlet ASStarRatingView *starRating;
 
 
 
@@ -45,7 +46,7 @@
 	NSData *imageData = [NSData dataWithContentsOfURL:url];
 	UIImage *image = [UIImage imageWithData:imageData];
 	self.barImage.image = image;
-	self.barScore.text = [NSString stringWithFormat:@"%i", bar1.score];
+	self.starRating.rating= [[NSString stringWithFormat:@"%@", bar1.score]floatValue];
 }
 
 - (void)viewDidLoad
@@ -53,6 +54,8 @@
 	[super viewDidLoad];
 	self.actualBar=0;
 	self.theBars = [[Bars alloc] initWithFile:@"Bars_List"];
+	self.starRating.maxRating=5;
+		self.starRating.canEdit=NO;
 	[self paintBar:self.actualBar];
 }
 

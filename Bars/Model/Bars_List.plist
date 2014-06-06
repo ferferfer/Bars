@@ -16,7 +16,7 @@
 		<key>description</key>
 		<string>Bar de copas, ofertas hora feliz</string>
 		<key>score</key>
-		<integer>5</integer>
+		<string>5</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -32,7 +32,7 @@
 		<key>description</key>
 		<string>Bar de copas, ofertas hora feliz</string>
 		<key>score</key>
-		<integer>5</integer>
+		<string>4</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -48,7 +48,7 @@
 		<key>description</key>
 		<string>Bar de copas, ofertas hora feliz</string>
 		<key>score</key>
-		<integer>5</integer>
+		<string>3</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -64,7 +64,7 @@
 		<key>description</key>
 		<string>Bar de copas, ofertas hora feliz</string>
 		<key>score</key>
-		<integer>5</integer>
+		<string>2.5</string>
 	</dict>
 </array>
 </plist>

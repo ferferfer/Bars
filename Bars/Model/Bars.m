@@ -37,7 +37,7 @@
 														andLatitude:[dic[@"latitude"] floatValue]
 													 andLongitude:[dic[@"longitude"]floatValue]];
 			bar.description=dic[@"description"];
-			bar.score=[dic[@"score"]integerValue];
+			bar.score=dic[@"score"];
 			bar.urlPhoto=dic[@"urlPhoto"];
 			[_theBars addObject:bar];
 		}

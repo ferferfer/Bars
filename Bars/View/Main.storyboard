@@ -26,12 +26,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="score" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7t9-d2-asb">
-                                <rect key="frame" x="120" y="381" width="43" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tig-Fx-Rmc">
                                 <rect key="frame" x="0.0" y="0.0" width="38" height="532"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -53,7 +47,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDA-CD-cwg">
-                                <rect key="frame" x="62" y="381" width="50" height="21"/>
+                                <rect key="frame" x="60" y="372" width="50" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -75,6 +69,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QZ4-uN-ujY" customClass="ASStarRatingView">
+                                <rect key="frame" x="60" y="401" width="189" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -83,7 +82,7 @@
                         <outlet property="barAddress" destination="cd0-QW-QYo" id="Gz6-ZP-Zkf"/>
                         <outlet property="barImage" destination="vf8-6g-mZ8" id="NZ0-v2-Jj1"/>
                         <outlet property="barName" destination="fGo-4i-RmQ" id="KWt-4G-Vnw"/>
-                        <outlet property="barScore" destination="7t9-d2-asb" id="ZAr-Oz-xu4"/>
+                        <outlet property="starRating" destination="QZ4-uN-ujY" id="lVX-bf-x6O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -93,7 +92,6 @@
         <!--Details View Controller - Detalles-->
         <scene sceneID="Sgb-vQ-tLh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XDb-W0-AcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xLX-bP-2mP" customClass="DetailsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AJQ-Nn-7KV"/>
@@ -133,6 +131,7 @@
                         <outlet property="barDetail" destination="3vp-sb-qFb" id="X7u-Kg-BtM"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XDb-W0-AcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1285" y="40"/>
         </scene>

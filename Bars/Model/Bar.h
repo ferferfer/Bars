@@ -12,7 +12,7 @@
 
 @property (nonatomic,strong) NSString *name;
 @property (nonatomic,strong) NSString *address;
-@property (nonatomic) NSUInteger score;
+@property	(nonatomic,strong) NSString *score;
 @property (nonatomic,strong) NSString *description;
 @property (nonatomic) CGFloat latitude;
 @property (nonatomic) CGFloat longitude;
